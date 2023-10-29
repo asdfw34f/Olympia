@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">OLYMPIA</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="training">Training</string>
+    <string name="my_health">My health</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="personal_data">Personal data</string>
+    <string name="changing_language">Change language to Russian</string>
+    <string name="editing_data">Editing data</string>
+    <string name="save">Save</string>
+    <string name="exit_from_account">Exit from account</string>
+    <string name="app_Info">Addition Information about App</string>
+    <string name="subscription">Subscription</string>
+    <string name="blood_analysis">Blood analysis</string>
+    <string name="weight_analysis">Weight analysis</string>
+    <string name="recommended_meal_plan">Recommended meal plan</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="settings">Settings</string>
+    <string name="authorization">Authorization</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="email">Email</string>
+    <string name="description">Enter description of the post</string>
+    <string name="comment">Enter the comment</string>
+    <string name="go_back">Go back</string>
+    <string name="for_empty_fields"> </string>
+    <string-array name="forHome">
+        <item>
+Как быстро можно потерять мышечную массу без тренировок
+•   Регулярные тренировки важны для роста физической силы и выносливости.
+•   Перерыв в тренировках может привести к потере мышечной массы, но это зависит от времени и вида тренировок.
+•   Скорость потери мышечной массы зависит от уровня физической подготовки, кардио тренировок и возраста.
+•   Пожилые люди теряют мышечную массу быстрее, чем молодые, но не имеют различий между мужчинами и женщинами.
+•   "Мышечная память" помогает профессиональным спортсменам и любителям быстрее вернуться к прежней форме после перерыва.
+•   Трехнедельный перерыв в силовом фитнесе обычно не влияет на результаты, но уменьшение нагрузок может повлиять на выносливость.
+•   Сохранение минимальной нагрузки во время перерыва может замедлить потерю прогресса.
+•   Комфортный режим тренировок поможет поддерживать форму в долгосрочной перспективе.</item>
+        <item>
+            Сколько мышечной массы должно быть у мужчин и у женщин
+•   Мышечная масса важна для здоровья и физической функции.
+•   Она влияет на риск травм, хронических заболеваний и ранней смерти.
+•   Мышечная масса влияет на силу, подвижность и равновесие.
+•   Трудно точно измерить мышечную массу, но можно использовать процентное содержание жира в организме.
+•   Для роста мышц подходят силовые тренировки, аэробные упражнения и правильное питание.
+•   Важно потреблять достаточное количество белка, углеводов и жиров для набора и сохранения мышечной массы.
+•   Мышечная масса является частью безжировой массы тела и влияет на физическую форму.
+•   Точный расчет мышечной массы сложен, но можно использовать МРТ для оценки.</item>
+        <item>Продукты, богатые белком, для наращивания мышц
+•   Наращивание мышечной массы требует силы и сбалансированного белкового питания.
+•   Продукты, богатые белком, такие как яйца, лосось, грудка птицы, молочные продукты, тунец, креветки, морские гребешки, соевые бобы, говядина, творог, фасоль, нут, арахис, миндаль, гречка, тофу, коричневый рис, протеиновые порошки.
+•   Для роста мышц нужно употреблять продукты с высоким содержанием белка, такие как курица, лосось, греческий йогурт, бобы, творог, яйца.
+•   Для анаболического роста необходимо употреблять больше калорий, чем вы сжигаете.
+•   Помочь достигнуть эффективного баланса может фитнес-тренер или нутрициолог.</item>
+    </string-array>
+    <string-array name="forMyHealth">
+        <item>Информация про анализ крови отсутствует</item>
+        <item>Информация про анализ веса отсутствует</item>
+        <item>Отсутствует рекомендуемый план питания</item>
+        <item>Информация про витамины отсутствует</item>
+    </string-array>
+</resources>

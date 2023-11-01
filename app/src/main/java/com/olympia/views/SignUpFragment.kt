@@ -16,18 +16,22 @@ import androidx.navigation.fragment.findNavController
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.FirebaseDatabaseKtxRegistrar
 import com.google.firebase.database.database
 import com.olympia.R
 import com.olympia.databinding.FragmentSignUpBinding
 import com.olympia.extensions.toMainScreen
+import com.olympia.model.repositories.UsersRepository
 import com.olympia.viewModels.AccountInf
+import com.olympia.viewModels.UserViewModel
 
 class SignUpFragment : Fragment() {
 
-    private lateinit var auth: FirebaseAuth
-
+  //  private lateinit var auth: FirebaseAuth
+   // private lateinit var db: FirebaseDatabase
 
     private lateinit var binding: FragmentSignUpBinding
     private val dataModel: AccountInf by activityViewModels()
@@ -73,13 +77,27 @@ class SignUpFragment : Fragment() {
         }
         binding.BGoBackOnSignUp.setOnClickListener { controller.navigate(R.id.profileFragment) }
         binding.BSaveOnSignUp.setOnClickListener {
-            dataModel.userName.value = binding.UserNameOnSignUp.text.toString()
-            dataModel.password.value = binding.PasswordOnSignUp.text.toString()
-            dataModel.gender.value = binding.GenderOnSignUp.text.toString()
-            dataModel.dataOfBirth.value = binding.BirthdayOnSignUp.text.toString()
-            dataModel.email.value = binding.EmailOnSignUp.text.toString()
+       //   dataModel.userName.value = binding.UserNameOnSignUp.text.toString()
+       //   dataModel.password.value = binding.PasswordOnSignUp.text.toString()
+       //   dataModel.gender.value = binding.GenderOnSignUp.text.toString()
+       //   dataModel.dataOfBirth.value = binding.BirthdayOnSignUp.text.toString()
+       //   dataModel.email.value = binding.EmailOnSignUp.text.toString()
 
+     //     auth = FirebaseAuth.getInstance()
+        //  auth.createUserWithEmailAndPassword(binding.EmailOnSignUp.text.toString(), binding.PasswordOnSignUp.text.toString())
 
+            UsersRepository().writeNewUser(
+                "qwer",
+                "dfsjuhngbvjf",
+                "f",
+                "22.02.2000",
+                "qwer@gmail.com"
+            //   binding.UserNameOnSignUp.text.toString(),
+            //   binding.PasswordOnSignUp.text.toString(),
+            //   binding.GenderOnSignUp.text.toString(),
+            //   binding.BirthdayOnSignUp.text.toString(),
+            //   binding.EmailOnSignUp.text.toString()
+            )
 
         }
     }
